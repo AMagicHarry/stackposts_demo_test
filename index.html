@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://demo.stackposts.com/spmo/assets/img/logo.svg" type="image/x-icon" />
+  <title>Composer</title>
+
+  <!-- ========== All CSS files linkup ========= -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="assets/css/lineicons.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/materialdesignicons.min.css" /> -->
+  <!-- <link rel="stylesheet" href="assets/css/fullcalendar.css" /> -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link
+    href="https://cdn.jsdelivr.net/gh/eliyantosarage/font-awesome-pro@main/fontawesome-pro-6.5.1-web/css/all.min.css"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- ======== Preloader =========== -->
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+  <!-- ======== Preloader =========== -->
+
+  <!-- ======== sidebar-nav start =========== -->
+  <aside class="sidebar-nav-wrapper">
+
+    <div class="navbar-logo d-flex flex-column align-items-center flex-column-auto py-3">
+      <a href="index.html">
+        <img alt="Logo" src="https://demo.stackposts.com/spmo/assets/img/logo-color.svg" class="logo-big h-39">
+        <img alt="Logo" src="https://demo.stackposts.com/spmo/assets/img/logo.svg" class="logo-small h-39">
+      </a>
+    </div>
+
+    <nav class="sidebar-nav">
+      <!-- sample -->
+      <ul class="nav flex-column hide-x-scroll">
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-home fs-20" style="color: #28abf5"></i>
+            <span class="text-gray-600 fw-5">Dashboard</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 active text-primary bg-light">
+            <i class="fad fa-paper-plane fs-20" style="color: #ff0000"></i>
+            <span class="text-gray-600 fw-5">Composer</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-mind-share fs-20" style="color: #0023ff"></i>
+            <span class="text-gray-600 fw-5">AI Composer</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-rocket fs-20" style="color: #41a900"></i>
+            <span class="text-gray-600 fw-5">Bulk post</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-rss-square fs-20" style="color: #ff5e00"></i>
+            <span class="text-gray-600 fw-5">RSS Schedules</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-analytics fs-20" style="color: #3b5998"></i>
+            <span class="text-gray-600 fw-5">Analytics</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <div class="nav-line bg-light m-b-10 m-t-10"></div>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fab fa-whatsapp fs-20" style="color: #25d366"></i>
+            <span class="text-gray-600 fw-5">Whatsapp</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fas fa-fire fs-20" style="color: #FE3C72"></i>
+            <span class="text-gray-600 fw-5">Tinder auto like</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <div class="nav-line bg-light m-b-10 m-t-10"></div>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-file-edit fs-20" style="color: #00cccb"></i>
+            <span class="text-gray-600 fw-5">Drafts</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-calendar-alt fs-20" style="color: #c300e7"></i>
+            <span class="text-gray-600 fw-5">Schedules</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-share-alt fs-20" style="color: #002bff"></i>
+            <span class="text-gray-600 fw-5">Account manager</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-folders fs-20" style="color: #5156ff"></i>
+            <span class="text-gray-600 fw-5">File manager</span>
+          </a>
+        </li>
+
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-alien-monster fs-20" style="color: #3a1010"></i>
+            <span class="text-gray-600 fw-5">AI Content Generator</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2 have-menus-sub">
+          <a href="javascript:void(0);" class="nav-link d-flex hoverable p-t-12 p-b-12 ">
+            <i class="fad fa-pencil-paintbrush fs-20" style="color: #36d633"></i>
+            <span class="text-gray-600 fw-5">Tools</span>
+          </a>
+
+          <div class="menu-sub menu-sub-accordion mt-3" style="display: none;">
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Caption</span>
+              </a>
+            </div>
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Group manager</span>
+              </a>
+            </div>
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Watermark</span>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item mb-2">
+          <div class="nav-line bg-light m-b-10 m-t-10"></div>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-users-crown fs-20" style="color: #2196f3"></i>
+            <span class="text-gray-600 fw-5">Teams</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-user-shield fs-20" style="color: #ff4d3b"></i>
+            <span class="text-gray-600 fw-5">Proxies</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <div class="nav-line bg-light m-b-10 m-t-10"></div>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fal fa-list-alt fs-20" style="color: #cb2b7a"></i>
+            <span class="text-gray-600 fw-5">AI Prompt Templates</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-blog fs-20" style="color: #ff8100"></i>
+            <span class="text-gray-600 fw-5">Blog</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-question fs-20" style="color: #060ded"></i>
+            <span class="text-gray-600 fw-5">FAQs</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2 have-menus-sub">
+          <a href="javascript:void(0);" class="nav-link d-flex hoverable p-t-12 p-b-12 ">
+            <i class="fad fa-id-card-alt fs-20" style="color: #e90a7b"></i>
+            <span class="text-gray-600 fw-5">Memberships</span>
+          </a>
+
+          <div class="menu-sub menu-sub-accordion mt-3" style="display: none;">
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Plans</span>
+              </a>
+            </div>
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Coupons</span>
+              </a>
+            </div>
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Subscriptions</span>
+              </a>
+            </div>
+            <div class="menu-item ">
+              <a class="menu-link py-2 text-gray-900 text-hover-primary" href="">
+                <span class="menu-desc">Payments</span>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-users fs-20" style="color: #009ef7"></i>
+            <span class="text-gray-600 fw-5">Users</span>
+          </a>
+        </li>
+
+        <li class="nav-item mb-2">
+          <div class="nav-line bg-light m-b-10 m-t-10"></div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-footer hide-x-scroll hide-y-scroll">
+      <div class="nav flex-column overflow-hidden w-100">
+        <div class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-plug fs-20" style="color: #1336b5"></i>
+            <span class="text-gray-600 fw-5">Plugins</span>
+          </a>
+        </div>
+        <div class="menu-separator"></div>
+        <div class="nav-item mb-2">
+          <a href="" class="nav-link d-flex p-t-12 p-b-12 hoverable">
+            <i class="fad fa-cog fs-20" style="color: #ffc700"></i>
+            <span class="text-gray-600 fw-5">Settings</span>
+          </a>
+        </div>
+        <div class="menu-separator"></div>
+      </div>
+    </div>
+  </aside>
+
+  <div class="overlay"></div>
+  <!-- ======== sidebar-nav end =========== -->
+
+  <!-- ========== header start ========== -->
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-6">
+          <div class="header-left d-flex align-items-center">
+            <div class="menu-toggle-btn mr-15">
+              <button id="menu-toggle" class="main-btn primary-btn btn-hover">
+                <i class="fad fa-bars p-r-0 fs-20"></i>
+              </button>
+            </div>
+            <div class="header-search d-none d-md-flex">
+              <form action="#">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-7 col-6">
+          <div class="header-right">
+            <div class="d-flex align-items-stretch ms-3">
+              <div class="d-flex align-items-center me-2"><span class="d-lg-block d-md-block d-sm-none d-none">Expire
+                  date: 02-01-2035</span></div>
+              <div class="d-flex align-items-center">
+                <a href="" style="background-color: #009ef7;" class="btn btn-primary btn-sm b-r-20">Upgrade</a>
+              </div>
+            </div>
+            <!-- profile start -->
+            <div class="profile-box ml-5">
+              <button class="dropdown-toggle bg-transparent border-0" type="button" id="profile"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="profile-info">
+                  <div class="info">
+                    <div class="image">
+                      <img src="https://demo.stackposts.com/spmo/writable/avatar/6444ffe41459d.png" class="w-40">
+                    </div>
+                  </div>
+                </div>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profile">
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-user me-2"></i> Account</a>
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-key me-2"></i>
+                  Change password</a>
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-box-open me-2"></i> Plan</a>
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-credit-card me-2"></i> Billing</a>
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-cog me-2"></i> Settings</a>
+                <li>
+                  <hr class="border-bottom">
+                </li>
+                <a class="dropdown-item py-2 px-2" href=""><i class="fad fa-sign-out text-danger me-2"></i> Logout</a>
+              </ul>
+            </div>
+            <!-- profile end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ========== header end ========== -->
+  <!-- ======== main-wrapper start =========== -->
+  <main class="main-wrapper">
+    <!-- ========== section start ========== -->
+    <section class="section">
+      <div class="container-fluid">
+        <!-- ========== title-wrapper start ========== -->
+        <div class="title-wrapper pt-30">
+        </div>
+        <!-- ========== title-wrapper end ========== -->
+
+        <div class="row px-15">
+          <div class="col-lg-4 social-link active"><i class="fa-duotone fa-images mr-10 font-34"></i>Media</div>
+          <div class="col-lg-4 social-link"><i class="fa-duotone fa-link mr-10 font-34"></i>Link</div>
+          <div class="col-lg-4 social-link"><i class="fa-duotone fa-align-center mr-10 font-34"></i>Text</div>
+        </div>
+
+        <div class="row mt-20">
+          <div class="col-lg-4">
+            <div class="media-card">
+              <div class="d-flex media-header">
+                <p class="bold">Media</p>
+                <div>
+                  <i class="fa-solid fa-desktop mr-10 active-icon"></i>
+                  <i class="fa-brands fa-dropbox mr-10 active-icon"></i>
+                  <i class="fa-brands fa-google-drive mr-10 active-icon"></i>
+                  <i class="fa-solid fa-clouds mr-10 active-icon"></i>
+                  <i class="fa-solid fa-table-cells-large"></i>
+                </div>
+
+              </div>
+              <div class="container media-body">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/folder.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test1.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test2.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test3.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test1.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test2.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test3.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test1.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test2.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test3.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test1.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test2.jpg" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+
+                      <img src="assets/icons/test3.png" alt="Image 1" class="bd-placeholder-img card-img-top"
+                        style="height: 70px; width: 100%;">
+
+                      <div class="card-footer">
+                        <h5 class="bold font-12">Test</h5>
+                        <p class="font-10" style="line-height: 15px;">Folder</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+
+          <div class="col-lg-4">
+            <div class="post-card">
+              <div class="post-header">
+                New Post
+              </div>
+              <div class="p-2x">
+                <div class="border-basic p-1x"><i class="fa-duotone fa-address-card"></i> Please
+                  select a profile</div>
+                <div class="mt-10 drag-media">
+                  DRAG MEDIA HERE TO POST</div>
+                <div class="mt-10">
+                  <textarea rows="5" placeholder="Write a caption" class="caption-area"></textarea>
+                  <div class="d-flex border-basic" style="margin-top: -10px;">
+                    <div class="border-basic p-1x font-14"><i class="fa-light fa-text-width"></i>
+                      0</div>
+                    <div class="border-basic p-1x active-area font-14"><i class="fa-light fa-message-lines"></i></div>
+                    <div class="border-basic p-1x active-area font-14"><i class="fa-light fa-floppy-disk"></i>
+                    </div>
+                    <div class="border-basic p-1x active-area font-14"><i class="fa-light fa-brain-circuit"></i></div>
+                    <div class="border-basic p-1x active-area font-14"><i class="fa-light fa-link"></i> URL
+                      Shortener</div>
+                  </div>
+                </div>
+                <div class="mt-10 d-flex border-basic p-2x justify-between">
+                  <div class="font-14 bold">When to post</div>
+                  <select class="font-12 p-1x border-basic" style="background-color: #f5f8fa;">
+                    <option value="">Immediately</option>
+                    <option value="">Schedule & Repost</option>
+                    <option value="">Specific Days & Times</option>
+                    <option value="">Draft</option>
+                  </select>
+                </div>
+              </div>
+              <div class="send-button-area">
+                <button class="send-button main-btn btn-hover ">
+                  <i class="fa-light fa-paper-plane"></i>
+                  Send now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+
+          <div class="col-lg-4">
+            <div class="netword-preview-card">
+              <div class="post-header">
+                Network Preview
+              </div>
+              <div class="social-icon-group">
+                <div class="p-2-5x active-area"><i style="color: #3b5998;" class="fa-brands fa-facebook font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #d62976;" class="fa-brands fa-instagram font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i class="fa-brands fa-threads font-20"></i></div>
+                <div class="p-2-5x active-area"><i class="fa-solid fa-x font-20"></i></div>
+                <div class="p-2-5x active-area"><i style="color: #010101;" class="fa-brands fa-tiktok font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #c4302b;" class="fa-brands fa-youtube font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i class="fa-brands fa-instagram font-20"></i></div>
+                <div class="p-2-5x active-area"><i style="color: #0d77b7;" class="fa-brands fa-linkedin font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #cd2029;" class="fa-brands fa-pinterest font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #009ef7;" class="fa-brands fa-reddit font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #0d77b7;" class="fa-brands fa-tumblr font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #0088cc;" class="fa-brands fa-telegram font-20"></i>
+                </div>
+                <div class="p-2-5x active-area"><i style="color: #4b729c;" class="fab fa-vk font-20"></i></div>
+                <div class="p-2-5x active-area"><i style="color: #ed812b;"
+                    class="fa-brands fa-odnoklassniki font-20"></i>
+                </div>
+              </div>
+              <div class="social-area">
+                <div class="p-2x">
+                  <div class="mb-30">
+                    <div><i style="color: #3b5998;" class="fa-brands fa-facebook font-12"></i> Facebook</div>
+                    <div class="mt-10 border-basic">
+                      <div class="p-1-5x">
+                        <div class="d-flex">
+                          <img src="assets/icons/user.png" class="mr-10">
+                          <div>
+                            <p class="font-14 bold">Your name</p>
+                            <p class="font-12">Mar 13</p>
+                          </div>
+                        </div>
+                        <div class="mt-10">
+                          <div class="empty-line-full"></div>
+                          <div class="empty-line-full"></div>
+                          <div class="empty-line-half"></div>
+                        </div>
+                      </div>
+                      <div class="empty-background">
+                        <i class="fa-regular fa-image empty-icon"></i>
+                      </div>
+                      <div class="d-flex font-14 p-0-5x justify-around">
+                        <div><i class="fa-light fa-thumbs-up"></i> Like</div>
+                        <div><i class="fa-light fa-message"></i> Comment</div>
+                        <div><i class="fa-light fa-share"></i> Share</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #d62976;" class="fa-brands fa-instagram"></i> Instagram</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex; align-items: center;">
+                          <img src="assets/icons/user.png" style="margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 14px; font-weight: bold;">Username</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 7px 15px;">
+                        <div></div>
+                        <div style="display: flex;">
+                          <i class="fa-regular fa-heart" style="font-size: 18px; margin-right: 20px;"></i>
+                          <i class="fa-regular fa-comment" style="font-size: 18px;"></i>
+                        </div>
+                        <p style="font-size: 12px; font-weight: bold;">Your name</p>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                        <p style="font-size: 12px;">MAR 13</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px;" class="fa-brands fa-threads"></i> Threads</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex; align-items: center;">
+                          <img src="assets/icons/user.png" style="margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 14px; font-weight: bold;">Username</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 7px 15px;">
+                        <div></div>
+                        <div style="display: flex;">
+                          <i class="fa-regular fa-heart" style="font-size: 18px; margin-right: 20px;"></i>
+                          <i class="fa-regular fa-comment" style="font-size: 18px;"></i>
+                        </div>
+                        <p style="font-size: 12px; font-weight: bold;">Your name</p>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                        <p style="font-size: 12px;">MAR 13</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px;" class="fa-solid fa-x"></i></div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="height: 48px; margin-right: 10px;">
+                          <div style="width: 100%;">
+                            <div style="display: flex;">
+                              <p style="font-size: 14px; font-weight: bold; margin-right: 10px;">Your name</p>
+                              <p style="font-size: 12px;">@username . Mar 13</p>
+                            </div>
+                            <div class="mt-10">
+                              <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                              </div>
+                              <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                              </div>
+                              <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                            </div>
+                            <div class="mt-10"
+                              style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                              <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                            </div>
+                            <div style="display: flex; padding: 20px 0px;">
+                              <i class="fa-light fa-comment" style="margin-right: 50px;"></i>
+                              <i class="fa-light fa-arrows-retweet" style="margin-right: 50px;"></i>
+                              <i class="fa-light fa-heart"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #010101;" class="fa-brands fa-tiktok"></i> Tiktok post</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="height: 48px; margin-right: 10px;">
+                          <div style="width: 100%;">
+                            <div style="display: flex;">
+                              <p style="font-size: 14px; font-weight: bold; margin-right: 10px;">Username</p>
+                              <p style="font-size: 12px;">Your name</p>
+                            </div>
+                            <div class="mt-10">
+                              <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                              </div>
+                              <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                              </div>
+                              <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                            </div>
+                            <div class="mt-10"
+                              style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                              <i class="fa-solid fa-play" style="font-size: 100px; color: white;"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div class="mb-10"><i style="font-size: 20px; color: #d62976;" class="fa-brands fa-instagram"></i>
+                      Youtube</div>
+                    <div style="border: 1px solid #eff2f5;">
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-solid fa-play" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div class="mt-10" style="padding: 15px;">
+                        <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                        <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                      </div>
+                      <div>
+                        <div style="padding: 15px;">
+                          <div style="display: flex;">
+                            <img src="assets/icons/user.png" style="height: 48px; margin-right: 10px;">
+                            <div style="width: 100%;">
+                              <p style="font-size: 12px; font-weight: bold;">Your name</p>
+                              <p style="font-size: 12px;">Published on Mar 13 <i class="fa-duotone fa-globe"></i></p>
+                              <div class="mt-10">
+                                <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                                </div>
+                                <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                                </div>
+                                <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #3b5998;" class="fa-brands fa-facebook"></i> Google Business
+                      Profile</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 14px; font-weight: bold;">Your name</p>
+                            <p style="font-size: 12px;">Mar 13</p>
+                          </div>
+                        </div>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="display: flex; padding: 5px 20px 5px 5px; justify-content: right; font-size: 14px;">
+                        <div><i class="fa-solid fa-share-nodes"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #0d77b7;" class="fa-brands fa-linkedin"></i> Linkedin</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="height: 48px; margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 12px; font-weight: bold;">Your name</p>
+                            <p style="font-size: 12px;">Sale manager</p>
+                            <p style="font-size: 12px;">Mar 13</p>
+                          </div>
+                        </div>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="display: flex; padding: 5px; justify-content: space-around; font-size: 14px;">
+                        <div><i class="fa-light fa-thumbs-up"></i> Like</div>
+                        <div><i class="fa-light fa-message"></i> Comment</div>
+                        <div><i class="fa-light fa-arrows-retweet"></i> Repost</div>
+                        <div><i class="fa-light fa-paper-plane"></i> Send</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div class="mb-10"><i style="font-size: 20px; color: #cd2029;" class="fa-brands fa-pinterest"></i>
+                      Pinterest</div>
+                    <div style="border: 1px solid #eff2f5;">
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 10px; border-bottom: 1px solid #eff2f5;">
+                        <p style="font-size: 12px;">Uploaded by <b>Username</b></p>
+                      </div>
+                      <div>
+                        <div style="padding: 15px;">
+                          <div style="display: flex;">
+                            <img src="assets/icons/user.png" style="height: 24px; margin-right: 10px;">
+                            <div style="width: 100%;">
+                              <p style="font-size: 12px;"><b>Username</b> Saved <b>Board</b></p>
+                              <div class="mt-10">
+                                <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                                </div>
+                                <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                                </div>
+                                <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div class="mb-10"><i style="font-size: 20px; color: #009ef7;" class="fa-brands fa-reddit"></i>
+                      Reddit</div>
+                    <div style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="height: 24px; margin-right: 10px;">
+                          <div style="width: 100%;">
+                            <p style="font-size: 12px;"><b>/r/ username</b> Just now</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 15px; border-bottom: 1px solid #eff2f5;">
+                        <div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="display: flex; padding: 5px 15px;">
+                        <div style="font-size: 12px; margin-right: 10px;"><i class="fa-light fa-message"></i> 0 comments
+                        </div>
+                        <div style="font-size: 12px; margin-right: 10px;"><i class="fa-light fa-gift"></i> Award</div>
+                        <div style="font-size: 12px; margin-right: 10px;"><i class="fa-light fa-share"></i> Share</div>
+                        <div style="font-size: 12px; margin-right: 10px;"><i class="fa-light fa-bookmark"></i> Save
+                        </div>
+                        <div>...</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div class="mb-10"><i style="font-size: 20px; color: #0d77b7;" class="fa-brands fa-tumblr"></i>
+                      Tumblr</div>
+                    <div style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <p style="font-size: 14px;"><b>Your name</b></p>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 15px; border-bottom: 1px solid #eff2f5;">
+                        <div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="display: flex; justify-content: space-between; padding: 5px 15px;">
+
+                        <div style="font-size: 12px; margin-right: 10px;"><b>100 notes</b></div>
+                        <div style="display: flex;">
+                          <div style="font-size: 18px; margin-right: 10px;"><i class="fa-light fa-share"></i></div>
+                          <div style="font-size: 18px; margin-right: 10px;"><i class="fa-light fa-comment"></i></div>
+                          <div style="font-size: 18px; margin-right: 10px;"><i class="fa-light fa-arrows-retweet"></i>
+                          </div>
+                          <div style="font-size: 18px;"><i class="fa-light fa-heart"></i></div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div class="mb-10"><i style="font-size: 20px; color: #0088cc;" class="fa-brands fa-telegram"></i>
+                      Telegram</div>
+                    <div style="border: 1px solid #eff2f5;">
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="padding: 15px; border-bottom: 1px solid #eff2f5;">
+                        <div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;">
+                          </div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #4b729c;" class="fab fa-vk"></i> Vk</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 14px; font-weight: bold;">Your name</p>
+                            <p style="font-size: 12px;">Mar 13</p>
+                          </div>
+                        </div>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="display: flex; padding: 5px 15px; font-size: 14px;">
+                        <div
+                          style="padding: 5px 15px; background-color: #E4E6EF; border-radius: 15px; margin-right: 10px;">
+                          <i class="fa-light fa-heart"></i>
+                        </div>
+                        <div
+                          style="padding: 5px 15px; background-color: #E4E6EF; border-radius: 15px; margin-right: 10px;">
+                          <i class="fa-light fa-message"></i>
+                        </div>
+                        <div style="padding: 5px 15px; background-color: #E4E6EF; border-radius: 15px;"><i
+                            class="fa-light fa-share"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="border: 1px dotted #eff2f5;"></div>
+                  <div class="mt-30 mb-30">
+                    <div><i style="font-size: 20px; color: #ed812b;" class="fa-brands fa-odnoklassniki"></i> Ok</div>
+                    <div class="mt-10" style="border: 1px solid #eff2f5;">
+                      <div style="padding: 15px;">
+                        <div style="display: flex;">
+                          <img src="assets/icons/user.png" style="margin-right: 10px;">
+                          <div>
+                            <p style="font-size: 14px; font-weight: bold;">Your name</p>
+                            <p style="font-size: 12px;">Mar 13</p>
+                          </div>
+                        </div>
+                        <div class="mt-10">
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 100%; background-color: #eff2f5; margin-bottom: 5px;"></div>
+                          <div style="height: 15px; width: 50%; background-color: #eff2f5;"></div>
+                        </div>
+                      </div>
+                      <div style="height: 200px; background-color: #f2f2f2; text-align: center; align-content: center;">
+                        <i class="fa-regular fa-image" style="font-size: 100px; color: white;"></i>
+                      </div>
+                      <div style="display: flex; padding: 5px 15px; font-size: 10px;">
+                        <div
+                          style="padding: 5px 10px; background-color: #E4E6EF; border-radius: 15px; margin-right: 10px;">
+                          Comment <i style="margin: 0px 5px;" class="fa-solid fa-comment"></i> 0</div>
+                        <div
+                          style="padding: 5px 10px; background-color: #E4E6EF; border-radius: 15px; margin-right: 10px;">
+                          Like<i style="margin: 0px 5px;" class="fa-solid fa-thumbs-up"></i> 0</div>
+                        <div style="padding: 5px 10px; background-color: #E4E6EF; border-radius: 15px;">Shares <i
+                            style="margin: 0px 5px;" class="fa-solid fa-share"></i> 0</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
+    </section>
+    <!-- ========== section end ========== -->
+
+  </main>
+  <!-- ======== main-wrapper end =========== -->
+
+  <!-- ========= All Javascript files linkup ======== -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/js/Chart.min.js"></script> -->
+  <!-- <script src="assets/js/dynamic-pie-chart.js"></script> -->
+  <!-- <script src="assets/js/moment.min.js"></script> -->
+  <!-- <script src="assets/js/fullcalendar.js"></script> -->
+  <!-- <script src="assets/js/jvectormap.min.js"></script> -->
+  <!-- <script src="assets/js/world-merc.js"></script> -->
+  <!-- <script src="assets/js/polyfill.js"></script> -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
